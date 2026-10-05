@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\QuestionController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\DashboardController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -24,3 +25,6 @@ Route::get('/about', function () {
 
 Route::get('/home', [HomeController::class, 'index'])
     ->name('home');
+
+Route::get('/dashboard', [DashboardController::class, 'index'])
+    ->name('dashboard.index');
