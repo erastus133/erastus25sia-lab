@@ -42,7 +42,7 @@
                                       <div class="col-auto">
                                           <!-- Avatar -->
                                           <img alt="Image placeholder"
-                                              src="{{ asset('assets-admin/img/team/profile-picture-1.jpg') }}"
+                                              src="{{ asset('assets-admin/assets/img/team/profile-picture-1.jpg') }}"
                                               class="avatar-md rounded">
                                       </div>
                                       <div class="col ps-0 ms-2">
@@ -64,7 +64,7 @@
                                       <div class="col-auto">
                                           <!-- Avatar -->
                                           <img alt="Image placeholder"
-                                              src="{{ asset('assets-admin/img/team/profile-picture-2.jpg') }}"
+                                              src="{{ asset('assets-admin/assets/img/team/profile-picture-2.jpg') }}"
                                               class="avatar-md rounded">
                                       </div>
                                       <div class="col ps-0 ms-2">
@@ -86,7 +86,7 @@
                                       <div class="col-auto">
                                           <!-- Avatar -->
                                           <img alt="Image placeholder"
-                                              src="{{ asset('assets-admin/img/team/profile-picture-3.jpg') }}"
+                                              src="{{ asset('assets-admin/assets/img/team/profile-picture-3.jpg') }}"
                                               class="avatar-md rounded">
                                       </div>
                                       <div class="col ps-0 m-2">
@@ -121,7 +121,7 @@
                           data-bs-toggle="dropdown" aria-expanded="false">
                           <div class="media d-flex align-items-center">
                               <img class="avatar rounded-circle" alt="Image placeholder"
-                                  src="{{ asset('assets-admin/img/team/profile-picture-3.jpg') }}">
+                                  src="{{ asset('assets-admin/assets/img/team/profile-picture-3.jpg') }}">
                               <div class="media-body ms-2 text-dark align-items-center d-none d-lg-block">
                                   <span class="mb-0 font-small fw-bold text-gray-900">Bonnie Green</span>
                               </div>
